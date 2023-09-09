@@ -18,6 +18,8 @@ You'll spend most of your time editing `config.js`. There will be comments in th
 you what needs to go where. If you like (and know what you're doing), you can also manually edit the HTML,
 CSS or JS files.
 
+To see the default page for yourself, head to https://d3ltah.github.io/scaffold/
+
 ## Setting a title
 
 To set a title for your page, all you need to do is head to the `config.js` file and edit the value of `pageTitle`
