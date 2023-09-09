@@ -1,0 +1,28 @@
+:root {
+    --title-font: "Open Sans", sans-serif;
+    --body-font: "Open Sans", sans-serif;
+    --code-font: "Consolas", monospace;
+
+    --title-colour: #0f0f0f;
+    --body-colour: #0f0f0f;
+    --accent-colour: #0f0f0f;
+}
+
+h1,
+h2 {
+    font-family: var(--title-font);
+    color: var(--title-colour);
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--body-colour);
+}
+
+code {
+    font-family: var(--code-font);
+}
+
+li::marker {
+    color: var(--accent-colour);
+}
